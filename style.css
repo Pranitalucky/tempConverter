@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+body{
+    height: 100vw;
+    width: 100vw;
+    background-color: brown;
+    display: grid;
+    place-items: center;
+}
+form{
+    background-color: aqua;
+    padding: 80px;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px;
+} 
+#usertemp {
+height: 20px;
+width: 80px;
+}
+#temp {
+border: none;
+padding: 10px;
+height: 40px;
+width: 100px;
+font-size: 20px;
+margin-top: 20px;
+}
+input{
+    margin: 2px;
+}
